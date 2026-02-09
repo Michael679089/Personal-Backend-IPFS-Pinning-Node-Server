@@ -1,0 +1,6 @@
+# unnecessary large
+node_modules
+
+# private information
+.env
+
