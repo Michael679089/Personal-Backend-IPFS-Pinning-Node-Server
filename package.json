@@ -1,0 +1,32 @@
+{
+  "name": "backend-pinning-service-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --loader ts-node/esm src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@chainsafe/libp2p-noise": "^17.0.0",
+    "@helia/unixfs": "^7.0.4",
+    "@libp2p/tcp": "^11.0.10",
+    "@libp2p/websockets": "^10.1.3",
+    "@libp2p/yamux": "^8.0.1",
+    "dotenv": "^17.2.4",
+    "elysia": "^1.4.23",
+    "firebase-admin": "^13.6.1",
+    "helia": "^6.0.20",
+    "libp2p": "^3.1.3",
+    "multiformats": "^13.4.2"
+  }
+}
